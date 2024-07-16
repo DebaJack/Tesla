@@ -1,0 +1,61 @@
+<!DOCTYPE html><!--VERSÃO DO HTML-->
+<html lang="pt-br"><!-- TAG HTML E LINGUA DO SITE-->
+
+<head><!--CONFIGURAÇÃO DO SITE CABEÇA -->
+    <meta charset="UTF-8"><!--PADRÃO DE CARACTERES DO SITE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!--importando meu arquivo css-->
+    <title>DevClub - Tesla</title> <!--TITULO DO SITE-->
+</head>
+
+<body> <!-- Corpo do site -->
+
+    <img src="./img/logo.png" alt="Logo da tesla" class="logo"> <!--Div é uma Caixa-->
+
+    <ul class="Lista">
+        <!-- item 1-->
+        <li class="item">
+
+            <video src="./img/model-y.mp4" muted loop autoplay></video>
+            <div class="info-carro">
+                <h1 class="brs">Model Y</h1>
+                <p class="sub-titulos"> Parcela aparti de 400$ Doláres</p>
+            </div>
+            <div class="rodapé">
+                <button onclick="aparecerFormulario()">Compra Agora</button>
+                <button class="teste-drive"> Faça um teste driver </button>
+                <p class="texto-rodape"> Não garantimos seu veículo imediatamente.consulta </p>
+            </div>
+        </li>
+
+        <!--Item 2-->
+        <li class="item">
+
+            <img src="./img/model-s.png" class=" img-tesla" alt="model-s">
+            <div class="info-carro">
+                <h1 class="ss">Model S</h1>
+                <p class="sub-titulo"> Compre Agora Seu Tesla </p>
+            </div>
+
+        </li>
+
+        <!--item 3-->
+
+        <li class="item">
+
+            <img src="./img/model-x.png" class="img-tesla" alt="model-x">
+            <div class="info-carro">
+                <h1 class="textos">Model x</h1>
+                <p class="sub-titulo"> Preço imperdível. </p>
+            </div>
+        </li>
+    </ul>
+
+    <div class="formulario">
+        <button onclick="desaparecerFormulario()">fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241927859231060"></script>
+    </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>
